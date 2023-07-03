@@ -1,0 +1,69 @@
+/* CSS to add background image to whole page*/
+.container {
+    background-image: url(../../assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+/*CSS to align title in middle*/
+h1 {
+    text-align: center;
+    color: rgb(7, 13, 110);
+    font-size: 50px;
+    font-weight: 500;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/*CSS to make the form transparent and align it in middle*/
+mat-card {
+    background-color: rgba(10, 10, 10, 0.5);
+    padding: 20px;
+    width: 500px;
+    border-color: rgb(135, 192, 241);
+    border-radius: 30px;
+    color: white;    
+    /* margin-left: 600px; */
+    display: flex;
+    align-items: center;
+    box-shadow: inset rgba(0, 0, 0, 0.2);
+
+}
+/*CSS to make the form transparent and align it in middle*/
+mat-card-title {
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    
+    
+}
+mat-card-content{
+    width: 100%;
+}
+/*CSS to make input fields occupy mat card space*/
+mat-form-field {
+    width: 100%;
+    border-radius: 20px;
+}
+mat-label{
+    color: white;
+}
+input{
+    color: white;
+}
+
+/*CSS to make the button occupy mat card space*/
+.mat-button {
+    width: 100%;
+    border-radius: 20px;
+    background-color: #3f51b5;
+    justify-content: center;
+    
+}
+
+
